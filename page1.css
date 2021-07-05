@@ -1,0 +1,48 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+
+.img-responsive{
+ width: 100%;
+ height: 300px;
+}
+.circle{
+ border-radius: 50%;
+ height: 70px;
+ width: 70px;
+ 
+}
+.center-items{
+ display: grid;
+ place-items: center;
+}
+.section-2-container{
+ background-color: rgb(250, 240, 241);
+}
+.text-official{
+ color: #22A4A2;
+}
+.card{
+ outline: none;
+ border: none;
+ width: 15rem !important;
+}
+.like{
+ color: #dc3545;
+}
+.like::hover{
+ background-color: #dc3545;
+}
+.p-10{
+ padding-top: 3rem;
+}
+
+
+@media screen and (max-width:770px) {
+ .card{
+  width: 100% !important;
+ }
+}
