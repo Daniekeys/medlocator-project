@@ -85,6 +85,62 @@ width: 92%;
  display: none;
 }
 
+.sort-container{
+width: 100%;
+display: flex;
+justify-content: flex-end;
+flex-direction: row;
+}
+.sort{
+ width: fit-content;
+ padding: 1rem;
+}
+.change-area{
+ display: grid;
+ place-items: center;
+ padding: 0.5rem 2rem;
+ border-radius: 10px;
+ outline: none;
+ border: 1px solid #333333;
+}
+
+.gold{
+ color: gold;
+}
+.img-grid{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-gap: 1rem;
+}
+.row{
+ margin-top: 1.5rem !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:770px) {
  .img-logo{
   width: 80px;
