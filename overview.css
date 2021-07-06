@@ -63,6 +63,28 @@ color: white;
 .gray{
  color: rgb(225, 241, 255);
 }
+.btn-special{
+ display: grid;
+ padding: 0.5rem 2rem;
+ place-items: center;
+ border-radius: 15px;
+ border: none;
+ outline: none;
+
+}
+.btn-special:hover{
+ background-color: rgb(172, 212, 212);
+ color: #22A4A2;
+}
+.circle-img{
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
+
+}
+.bold{
+ font-weight: 500;
+}
 @media screen and (max-width:770px) {
  .width-50{
   width: 100%;
@@ -72,4 +94,13 @@ color: white;
  .auto-hide{
   display: none;
  }
+ .btn-special{
+ display: grid;
+ padding: 0.25rem 1rem;
+ place-items: center;
+ border-radius: 20px;
+ border: none;
+ outline: none;
+
+}
 }
